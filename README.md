@@ -35,7 +35,7 @@ Developed by: D.Amarnath
 RegisterNumber:212221240012  
 */
 ```
-##USING NAND
+## USING NAND
 module comblogic(a,b,c,d,f);
 input a,b,c,d;
 output F;
@@ -45,7 +45,7 @@ assign f2 = (~d&~c&~a);
 assign f3 = (c&~(~b)&~a);
 assign F= f1&~f2&~f3;
 endmodule
-##USING NOR
+## USING NOR
 module comblogic(a,b,c,d,f);
 input a,b,c,d;
 output F;
